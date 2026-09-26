@@ -1,0 +1,9 @@
+{
+  "name": "fridgechef",
+  "private": true,
+  "scripts": {
+    "dev:backend": "node backend/server.js",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "install:all": "npm install --prefix frontend && npm install --prefix backend"
+  }
+}
