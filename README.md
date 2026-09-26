@@ -4,6 +4,8 @@
 
 A React app that takes a free-form list of ingredients, streams a structured recipe from **Google Gemini**, and renders it as a fully interactive cooking assistant.
 
+LIVE LINK OF THIS PRIJECT : https://frontend-ixwb0c247-infant88s-projects.vercel.app/
+
 ---
 
 ## ✨ Features
