@@ -110,7 +110,7 @@ Rules:
       try {
         const j = JSON.parse(errBody);
         errMsg = j.error?.message || errMsg;
-      } catch {}
+      } catch { }
       console.error("Gemini HTTP error:", errMsg);
       const isQuota = geminiRes.status === 429;
       sendEvent("error", {
@@ -216,5 +216,5 @@ function validateRecipeShape(obj) {
 app.get("/health", (_req, res) => res.json({ ok: true, model: MODEL }));
 
 app.listen(PORT, () => {
-  console.log(`✅  Backend running on http://localhost:${PORT} (model: ${MODEL})`);
+  console.log(`✅  Backend running on http://localhost:3001 (model: ${MODEL})`);
 });
