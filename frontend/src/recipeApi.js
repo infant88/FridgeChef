@@ -1,14 +1,3 @@
-/**
- * recipeApi.js
- * Handles the streaming request to /api/recipe.
- * Keeps the API key on the backend (routed through Vite proxy).
- *
- * Design decisions:
- *  - Uses AbortController to cancel stale in-flight requests.
- *  - Parses SSE events manually so we can handle chunk/done/error.
- *  - Strips accidental markdown fences the model sometimes emits.
- *  - Validates the JSON shape before returning it.
- */
 
 const BACKEND = '/api/recipe';
 const TIMEOUT_MS = 45_000;
