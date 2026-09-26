@@ -29,7 +29,7 @@ LIVE LINK OF THIS PRIJECT : https://frontend-delta-fawn-77.vercel.app/?_vercel_s
 
 ### Prerequisites
 - Node.js ≥ 18
-- A **Google Gemini API key** — [get one free here](https://aistudio.google.com/app/apikey)
+
 
 ### 1. Install dependencies
 
